@@ -1,0 +1,20 @@
+table{
+    border:black;
+    text-align: center;
+   
+}
+
+.day{
+    color:black;
+    background-color: yellow;
+}
+
+#border{
+    
+    background-color: aqua;
+}
+#top{
+    background-color: greenyellow;
+    text-align: center;
+}
+
