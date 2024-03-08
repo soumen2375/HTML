@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <form action="/server"><b>
+        <h1><center><u>Registration Form</u></center></h1>
+
+    <div> 
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+    </div> 
+    <br>  
+
+    <div>
+        Gender
+        <select name="gender">
+            <option selected>select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+    </div>
+    <br>
+
+    <div>
+        Choose your favourite color
+        <input type="radio" name="color" id="red" value="red">
+        <label for="red">Red</label>
+        <input type="radio" name="color" id="blue" value="blue">
+        <label for="blue">Blue</label>
+        <input type="radio" name="color" id="Green" value="Green">
+        <label for="Green">Green</label>
+        <input type="radio" name="color" id="Yellow" value="Yellow">
+        <label for="Yellow">Yellow</label>
+
+    </div>
+    <br>
+
+    <div>
+        Choose your favourite foods
+        <input type="checkbox" name="food" id="Biriyani" value="Biriyani">
+        <label for="Biriyani">Biriyani</label>
+        <input type="checkbox" name="food" id="Chowmein" value="Chowmein">
+        <label for="Chowmein">Chowmein</label>
+        <input type="checkbox" name="food" id="Fuchka" value="Fuchka">
+        <label for="Fuchka">Fuchka</label>
+        <input type="checkbox" name="food" id="ice-cream" value="ice-cream">
+        <label for="ice-cream">ice-cream</label>
+        <input type="checkbox" name="food" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+    </div>  
+    <br>
+    
+    <div>
+        <label for="income">Your monthly income</label>
+        <input type="range" id="income" name="income" min="10000" max="100000" step="5000" value="15000">
+    </div>
+    <br>
+    <br>
+
+
+    <input type="checkbox" id="terms" checked>
+     <label for="terms">Yes, I agree to the terms and conditions.</label>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+   </b>
+ </form>
+
+
+</body>
+</html>
