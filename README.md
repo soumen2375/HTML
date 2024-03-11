@@ -1,9 +1,9 @@
 HTML it's basically mean Hyper Text Markup Language.
 <br>
 HTML describes the structure of a Web page.
-
+<br>
 01.Basic Tag
-<ol>
+<ol type="A">
     <li>Basic HTML code</li>
     <li>Heading Tag</li>
     <li>List Tag</li>
@@ -11,17 +11,24 @@ HTML describes the structure of a Web page.
     <li>Image Tag</li>
     <li>Project</li>
 </ol>
+<br>
 02.Medium
-    A.Div Tag
-    B.Span Tag
-    C.Subscript
-    D.Superscript    
-
+<ol type="A">
+    <li>Div Tag</li>
+    <li>Span Tag</li>
+    <li>Subscript</li>
+    <li>Superscript</li>
+</ol>    
+<br>   
 03.Hard
-    A.Form
-    B.Table
-
+<ol type="A">
+    <li>Form</li>
+    <li>Table</li>
+</ol>
+<br>   
 04.Documents
-    A.Notes
-    B.Problem
-    C.Project
+<ol type="A">
+    <li>Notes</li>
+    <li>Problem</li>
+    <li>Project</li>
+</ol>   
