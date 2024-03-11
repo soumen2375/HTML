@@ -1,14 +1,16 @@
 HTML it's basically mean Hyper Text Markup Language.
+<br>
 HTML describes the structure of a Web page.
 
 01.Basic Tag
-    A.Basic HTML code
-    B.Heading Tag
-    C.List Tag
-    D.Anchor Tag
-    E.Image Tag
-    F.Project
-
+<ol>
+    <li>Basic HTML code</li>
+    <li>Heading Tag</li>
+    <li>List Tag</li>
+    <li>Anchor Tag</li>
+    <li>Image Tag</li>
+    <li>Project</li>
+</ol>
 02.Medium
     A.Div Tag
     B.Span Tag
