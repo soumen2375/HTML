@@ -1,0 +1,60 @@
+<!-- Create a feedback form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+
+    <form action="/server"><b>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Write your name">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Write your email">
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" style="height: 60px; width: 214px;" placeholder="Write your message..."></textarea>
+        </div>
+        <br>
+
+        <div>
+           <label for="Rate">Rate us out of 5:</label> 
+            <br>
+            <input type="radio" id="1" name="Rate" value="1">
+            <label for="1">1</label>
+            <br>
+            <input type="radio" id="2" name="Rate" value="2">
+            <label for="2">2</label>
+            <br>
+            <input type="radio" id="3" name="Rate" value="3">
+            <label for="3">3</label>
+            <br>
+            <input type="radio" id="4" name="Rate" value="4">
+            <label for="4">4</label>
+            <br>
+            <input type="radio" id="5" name="Rate" value="5">
+            <label for="5">5</label>          
+        </div>
+        <br>
+
+        <button type="submit">Send your message</button>
+        <button type="reset">Reset</button>
+
+
+    </b>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!-- Normal Form Create -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/server"><b>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name">
+        </div>
+        <br>
+
+        <div>
+            Sex:
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="Country">Country:</label>
+            <select name="country" id="Country">
+                <option selected>Select an option</option>
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" cols="27" rows="4" placeholder="Write your message..."></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Subscribe?</label>
+        </div>
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </b>
+    </form>
+    
+</body>
+</html>
